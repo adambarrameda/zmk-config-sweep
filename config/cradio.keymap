@@ -35,15 +35,6 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        del: del {
-            compatible = "zmk,behavior-mod-morph";
-            label = "DEL";
-            bindings = <&lt 2 BACKSPACE>, <&lt 2 DEL>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
-        };
-
         oplt: oplt {
             compatible = "zmk,behavior-mod-morph";
             label = "OPLT";
@@ -92,82 +83,82 @@
 
         mins {
             bindings = <&kp MINUS>;
-            key-positions = <16 17>;
+            key-positions = <16 6>;
         };
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <17 18>;
+            key-positions = <17 7>;
         };
 
         astk {
             bindings = <&kp ASTRK>;
-            key-positions = <8 9>;
+            key-positions = <8 18>;
         };
 
         slsh {
             bindings = <&kp SLASH>;
-            key-positions = <18 19>;
+            key-positions = <18 28>;
         };
 
         bslh {
             bindings = <&kp BSLH>;
-            key-positions = <28 29>;
+            key-positions = <11 21>;
         };
 
         hash {
             bindings = <&kp HASH>;
-            key-positions = <5 6>;
+            key-positions = <13 23>;
         };
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <14 13>;
+            key-positions = <4 14>;
         };
 
         pct {
             bindings = <&kp PERCENT>;
-            key-positions = <25 26>;
+            key-positions = <25 15>;
         };
 
         eql {
             bindings = <&kp EQUAL>;
-            key-positions = <12 13>;
+            key-positions = <17 27>;
         };
 
         unds {
             bindings = <&kp UNDER>;
-            key-positions = <11 12>;
+            key-positions = <16 26>;
         };
 
         ampr {
             bindings = <&kp AMPS>;
-            key-positions = <2 3>;
+            key-positions = <13 3>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <1 2>;
+            key-positions = <2 12>;
         };
 
         grv {
             bindings = <&kp GRAVE>;
-            key-positions = <10 11>;
+            key-positions = <18 19>;
         };
 
         tlde {
             bindings = <&kp TILDE>;
-            key-positions = <0 1>;
+            key-positions = <10 11>;
         };
 
         at {
             bindings = <&kp AT>;
-            key-positions = <3 4>;
+            key-positions = <1 11>;
         };
 
         dllr {
             bindings = <&kp DOLLAR>;
-            key-positions = <15 16>;
+            key-positions = <15 5>;
         };
 
         undo {
@@ -195,19 +186,54 @@
             key-positions = <32 19>;
         };
 
-        alsoret {
+        retii {
             bindings = <&kp RET>;
             key-positions = <10 31>;
         };
 
         cut {
             bindings = <&kp LG(X)>;
-            key-positions = <21 22 23>;
+            key-positions = <21 23>;
         };
 
         delword {
             bindings = <&kp LA(BACKSPACE)>;
-            key-positions = <11 12 13>;
+            key-positions = <16 18>;
+        };
+
+        bksp {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 17>;
+        };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <17 18>;
+        };
+
+        bkspii {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <12 13>;
+        };
+
+        delii {
+            bindings = <&kp DELETE>;
+            key-positions = <11 12>;
+        };
+
+        delwordii {
+            bindings = <&kp LA(BACKSPACE)>;
+            key-positions = <11 13>;
+        };
+
+        dline {
+            bindings = <&kp LG(BACKSPACE)>;
+            key-positions = <16 19>;
+        };
+
+        dlineii {
+            bindings = <&kp LG(BACKSPACE)>;
+            key-positions = <10 13>;
         };
     };
 
@@ -216,10 +242,10 @@
 
         def {
             bindings = <
-&kp Q                   &kp W           &kp E           &kp R         &kp T    &kp Y        &kp U        &kp I       &kp O       &kp P
-&ht LSHFT A             &ht LEFT_ALT S  &ht LEFT_GUI D  &ht LCTRL F   &kp G    &kp H        &ht RCTRL J  &ht RGUI K  &ht RALT L  &mt RSHFT SQT
-&mt LS(LA(LC(LGUI))) Z  &kp X           &kp C           &kp V         &kp B    &kp N        &kp M        &cmqs       &pdex       &mt LS(LA(LC(LGUI))) SEMI
-                                                        &lt 5 ESCAPE  &del     &lt 3 SPACE  &lt 4 TAB
+&kp Q                   &kp W           &kp E           &kp R         &kp T             &kp Y        &kp U      &kp I       &kp O       &kp P
+&ht LCTRL A             &ht LEFT_ALT S  &ht LEFT_GUI D  &lt 2 F       &kp G             &kp H        &lt 2 J    &ht RGUI K  &ht RALT L  &ht RCTRL SQT
+&mt LS(LA(LC(LGUI))) Z  &kp X           &kp C           &kp V         &kp B             &kp N        &kp M      &cmqs       &pdex       &mt LS(LA(LC(LGUI))) SEMI
+                                                        &lt 5 ESCAPE  &sk LEFT_SHIFT    &lt 3 SPACE  &lt 4 TAB
             >;
         };
 
@@ -234,7 +260,7 @@
 
         num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &kp COMMA  &kp N7  &kp N8  &kp N9  &del
+&trans  &trans  &trans  &trans  &trans    &kp COMMA  &kp N7  &kp N8  &kp N9  &kp LS(N3)
 &trans  &trans  &trans  &trans  &trans    &kp N0     &kp N4  &kp N5  &kp N6  &trans
 &trans  &trans  &trans  &trans  &trans    &kp DOT    &kp N1  &kp N2  &kp N3  &trans
                         &trans  &trans    &trans     &trans
