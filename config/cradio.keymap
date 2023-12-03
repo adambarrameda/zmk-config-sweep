@@ -88,7 +88,7 @@
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <8 18>;
+            key-positions = <10 11>;
         };
 
         plus {
@@ -108,7 +108,7 @@
 
         bslh {
             bindings = <&kp BSLH>;
-            key-positions = <21 22>;
+            key-positions = <28 18>;
         };
 
         hash {
@@ -133,17 +133,17 @@
 
         col {
             bindings = <&kp LS(SEMI)>;
-            key-positions = <7 17>;
+            key-positions = <0 1>;
         };
 
         ampr {
             bindings = <&kp AMPS>;
-            key-positions = <3 2>;
+            key-positions = <7 17>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <2 1>;
+            key-positions = <8 18>;
         };
 
         grv {
@@ -158,7 +158,7 @@
 
         at {
             bindings = <&kp AT>;
-            key-positions = <1 0>;
+            key-positions = <1 11>;
         };
 
         dllr {
