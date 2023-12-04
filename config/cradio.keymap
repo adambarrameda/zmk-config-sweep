@@ -81,11 +81,13 @@
         lbkt {
             bindings = <&kp LBKT>;
             key-positions = <26 27>;
+            require-prior-idle-ms = <150>;
         };
 
         rbkt {
             bindings = <&kp RBKT>;
             key-positions = <27 28>;
+            require-prior-idle-ms = <150>;
         };
 
         semi {
@@ -97,46 +99,55 @@
         plus {
             bindings = <&kp PLUS>;
             key-positions = <28 29>;
+            require-prior-idle-ms = <150>;
         };
 
         astk {
             bindings = <&kp ASTRK>;
             key-positions = <8 9>;
+            require-prior-idle-ms = <150>;
         };
 
         slsh {
             bindings = <&kp SLASH>;
             key-positions = <18 19>;
+            require-prior-idle-ms = <150>;
         };
 
         bslh {
             bindings = <&kp BSLH>;
             key-positions = <3 4>;
+            require-prior-idle-ms = <150>;
         };
 
         hash {
             bindings = <&kp HASH>;
             key-positions = <5 6>;
+            require-prior-idle-ms = <150>;
         };
 
         caret {
             bindings = <&kp CARET>;
             key-positions = <14 13>;
+            require-prior-idle-ms = <150>;
         };
 
         pct {
             bindings = <&kp PERCENT>;
             key-positions = <25 26>;
+            require-prior-idle-ms = <150>;
         };
 
         eql {
             bindings = <&kp EQUAL>;
             key-positions = <18 17>;
+            require-prior-idle-ms = <150>;
         };
 
         col {
             bindings = <&kp LS(SEMI)>;
             key-positions = <11 12>;
+            require-prior-idle-ms = <150>;
         };
 
         ampr {
@@ -148,21 +159,25 @@
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <1 2>;
+            require-prior-idle-ms = <150>;
         };
 
         grv {
             bindings = <&kp GRAVE>;
             key-positions = <16 6>;
+            require-prior-idle-ms = <150>;
         };
 
         at {
             bindings = <&kp AT>;
             key-positions = <1 0>;
+            require-prior-idle-ms = <150>;
         };
 
         dllr {
             bindings = <&kp DOLLAR>;
             key-positions = <15 16>;
+            require-prior-idle-ms = <150>;
         };
 
         undo {
