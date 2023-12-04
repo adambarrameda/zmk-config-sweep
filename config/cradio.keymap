@@ -108,7 +108,7 @@
 
         bslh {
             bindings = <&kp BSLH>;
-            key-positions = <28 18>;
+            key-positions = <3 4>;
         };
 
         hash {
@@ -128,37 +128,32 @@
 
         eql {
             bindings = <&kp EQUAL>;
-            key-positions = <6 16>;
+            key-positions = <18 17>;
         };
 
         col {
             bindings = <&kp LS(SEMI)>;
-            key-positions = <0 1>;
+            key-positions = <11 12>;
         };
 
         ampr {
             bindings = <&kp AMPS>;
-            key-positions = <7 17>;
+            key-positions = <2 3>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <8 18>;
+            key-positions = <1 2>;
         };
 
         grv {
             bindings = <&kp GRAVE>;
-            key-positions = <3 13>;
-        };
-
-        tlde {
-            bindings = <&kp TILDE>;
-            key-positions = <3 4>;
+            key-positions = <16 6>;
         };
 
         at {
             bindings = <&kp AT>;
-            key-positions = <1 11>;
+            key-positions = <1 0>;
         };
 
         dllr {
@@ -213,7 +208,7 @@
 
         del {
             bindings = <&kp DELETE>;
-            key-positions = <17 18>;
+            key-positions = <17 15>;
         };
 
         bkspii {
@@ -223,7 +218,7 @@
 
         delii {
             bindings = <&kp DELETE>;
-            key-positions = <11 12>;
+            key-positions = <12 14>;
         };
 
         delwordii {
