@@ -116,7 +116,7 @@
 
         bslh {
             bindings = <&kp BSLH>;
-            key-positions = <3 4>;
+            key-positions = <10 11>;
             require-prior-idle-ms = <150>;
         };
 
@@ -144,12 +144,6 @@
             require-prior-idle-ms = <150>;
         };
 
-        col {
-            bindings = <&kp LS(SEMI)>;
-            key-positions = <11 12>;
-            require-prior-idle-ms = <150>;
-        };
-
         ampr {
             bindings = <&kp AMPS>;
             key-positions = <17 7>;
@@ -164,7 +158,7 @@
 
         grv {
             bindings = <&kp GRAVE>;
-            key-positions = <10 11>;
+            key-positions = <3 13>;
             require-prior-idle-ms = <150>;
         };
 
