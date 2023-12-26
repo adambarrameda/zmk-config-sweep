@@ -256,7 +256,7 @@
         def {
             bindings = <
 &kp Q                   &kp W           &kp E           &kp R         &kp T         &kp Y        &kp U      &kp I       &kp O       &kp P
-&ht LCTRL A             &ht LEFT_ALT S  &ht LEFT_GUI D  &lt 2 F       &kp G         &kp H        &lt 2 J    &ht RGUI K  &ht RALT L  &ht RCTRL SQT
+&ht LCTRL A             &ht LEFT_ALT S  &ht LEFT_GUI D  &lt 3 F       &kp G         &kp H        &lt 3 J    &ht RGUI K  &ht RALT L  &ht RCTRL SQT
 &ht LS(LA(LC(LGUI))) Z  &kp X           &kp C           &kp V         &kp B         &kp N        &kp M      &cmqs       &pdex       &ht LS(LA(LC(LGUI))) MINUS
                                                         &lt 6 ESCAPE  &sk LSHIFT    &lt 4 SPACE  &lt 5 TAB
             >;
